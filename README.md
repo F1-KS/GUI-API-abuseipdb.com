@@ -4,7 +4,7 @@ Python программа для удобной проверки IP-адресо
 
 Сборка программы в исполняемый файл для запуска в операционной системе Microsoft Windows без необходимости устанавливать Python, для этого в командной строке windows перейдем в директорию с скаченным файлом [abuseipdb.com_API_GUI_v.1.0.0.py и f1-ks.ico] и выполни команду:
 
-  >python -m PyInstaller --onefile --windowed abuseipdb.com_API_GUI_v.1.0.2.py
+  >python -m PyInstaller --onefile --windowed --icon=f1-ks.ico abuseipdb.com_API_GUI_v.1.0.0.py
 
 далее рядом с файлом [abuseipdb.com_API_GUI_v.1.0.0.py] появится ещё один файл [abuseipdb.com_API_GUI_v.1.0.0.spec] откроем этот файл любым текстовым редактором, поправим в нём одну строку:
 
@@ -16,7 +16,7 @@ a = Analysis(
 и сохраним изменения.
 далее запускаем ещё раз сборку программы, но уже с файла [abuseipdb.com_API_GUI_v.1.0.0.spec]:
 
-  >python -m PyInstaller abuseipdb.com_API_GUI_v.1.0.2.spec
+  >python -m PyInstaller abuseipdb.com_API_GUI_v.1.0.0.spec
 
 после сборки рядом с файлами py и spec появится папка dist, в этой папке будет исполняемы файл готовый к работе.
 
