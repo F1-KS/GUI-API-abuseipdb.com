@@ -27,3 +27,5 @@ PS
   >pip install os
 
   >pip install PyInstaller
+
+!!! Можно просто скачать готовый исполняемый файл для запуска на MS Windows из папки dist !!!
