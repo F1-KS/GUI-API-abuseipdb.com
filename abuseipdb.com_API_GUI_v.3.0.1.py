@@ -58,7 +58,7 @@ class IpAnalyzerApp:
         """Инициализация словарей переводов"""
         return {
             "ru": {
-                "window_title": "IP Analyzer abuseipdb.com - версия 3.0.0",
+                "window_title": "IP Analyzer abuseipdb.com - версия 3.0.1",
                 "api_key_label": "Введите API ключ abuseipdb.com:",
                 "save_api_key": "Сохранить API ключ",
                 "delay_label": "Задержка между запросами (секунды), привет от Cloudflare:",
@@ -92,7 +92,7 @@ class IpAnalyzerApp:
                 "more_than": "больше"
             },
             "en": {
-                "window_title": "IP Analyzer abuseipdb.com - version 3.0.0",
+                "window_title": "IP Analyzer abuseipdb.com - version 3.0.1",
                 "api_key_label": "Enter abuseipdb.com API key:",
                 "save_api_key": "Save API key",
                 "delay_label": "Delay between requests (seconds), greetings from Cloudflare:",
@@ -126,7 +126,7 @@ class IpAnalyzerApp:
                 "more_than": "more than"
             },
             "zh": {
-                "window_title": "IP 分析器 abuseipdb.com - 版本 3.0.0",
+                "window_title": "IP 分析器 abuseipdb.com - 版本 3.0.1",
                 "api_key_label": "输入 abuseipdb.com API 密钥:",
                 "save_api_key": "保存 API 密钥",
                 "delay_label": "请求之间的延迟（以秒为单位），来自 Cloudflare 的问候 :",
